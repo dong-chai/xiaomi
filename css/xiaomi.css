@@ -62,6 +62,40 @@
 .nav-font:hover{
 	color: red;
 }
+.nav-search{
+	width: 296px;
+	height: 50px;
+	background-color: pink;
+	float: right;
+	margin-top: 25px;
+
+}
+.sousuo{
+	width: 243px;
+	height: 48px;
+	border: 1px solid #e0e0e0;
+	text-indent: 28px;
+	outline:none;
+}
+.sousuo:focus{
+	outline: 1px solid #ff6700;
+}
+.nav-btn{
+	width: 51px;
+	height: 50px;
+	background-color: #fff;
+	border: 1px solid #e0e0e0;
+	float: right;
+	outline:none;
+}
+.nav-btn:hover{
+	background-color: #ff6700;
+	color: #fff;
+}
+.iconfont{
+	color: #616161;
+}
+
 .list{
 	width: 1226px;
 	height: 170px;
@@ -203,7 +237,7 @@
 .buy .iconfont{
 	font-size: 12px;
 }
-.buy:hover{
+.buy span:hover{
 	color: orangered;
 	background-color: white;
 }
@@ -493,6 +527,7 @@
 .vido-itm{
 	width: 296px;
 	height: 100%;
+	background-color: #fff;
 }
 .vido-itm a:hover{
 	color: #ff6700;
@@ -653,6 +688,7 @@
 	width: 1520px;
 	height: 106px;
 	padding: 30px 0;
+	background-color: #f5f5f5;
 }
 .mi1{
 	width: 1226px;
@@ -713,4 +749,84 @@
 	margin: 30px auto 0;
 	width: 267px;
 	height: 19px;
+}
+.banner{
+	width: 1226px;
+	height: 460px;
+	margin: 0 auto;
+	background-color: pink;
+	position: relative;
+}
+.banner-img{
+	width: 100%;
+	height: 100%;
+	background-color: skyblue;
+}
+.banner-nav{
+	width: 234px;
+	height: 420px;
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 20px 0;
+	z-index: 999;
+}
+.banner-itm{
+	width: 174px;
+	height: 42px;
+	padding: 0 30px;
+	font-size: 14px;
+	color: #fff;
+}
+.banner-itm span:nth-child(2){
+	float: right;
+}
+.banner-itm:hover{
+	background-color: #ff6700;
+}
+.banner-btn{
+	width: 41px;
+	height: 69px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 999;
+	font-size: 40px;
+	color: #757575;
+	font-weight: lighter;
+}
+.banner-btn:hover{
+	background-color: rgba(0, 0, 0, 0.4);
+	color: #fff;
+}
+.banner .lbtn{
+	left:234px;	
+}
+.rbtn{
+	right: 0;
+}
+.banner .banner-pages{
+	width: 140px!important;
+	height: 10px;
+	position: absolute;
+	right: 30px;
+	left: auto!important;
+	bottom: 10px!important;
+	z-index: 999;
+}
+.banner-pages .swiper-pagination-bullet{
+	width: 6px;
+	height: 6px;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 50%;
+	float: left;
+	margin: 0 5px;
+	border: 2px solid rgba(0, 0, 0, 0.4);
+}
+.kong{
+	width: 100%;
+	height: 72px;
+	background-color: #f5f5f5;
 }
